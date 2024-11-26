@@ -5,7 +5,7 @@
   "compilerOptions": {
     "paths": {
       "@acme/*": [
-        "dist/node_modules/@acme/*"
+        "./dist/node_modules/@acme/*"
       ]
     },
     "outDir": "./dist/out-tsc",

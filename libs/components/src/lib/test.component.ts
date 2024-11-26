@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'lib-components',
+  selector: 'lib-component',
   imports: [],
   template: `
     <p>

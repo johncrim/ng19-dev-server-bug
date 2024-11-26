@@ -11,7 +11,7 @@ yarn dlx --package @angular/cli ng new ng19-workspace --package-manager=yarn --c
 cd ng19-workspace
 yarn set version berry
 yarn ng g lib components --interactive
-ng g application app
+yarn ng g application app --interactive
 ```
 
 ## Development server
