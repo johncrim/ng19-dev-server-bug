@@ -4,8 +4,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "components": [
-        "./dist/components"
+      "@acme/*": [
+        "dist/node_modules/@acme/*"
       ]
     },
     "outDir": "./dist/out-tsc",
