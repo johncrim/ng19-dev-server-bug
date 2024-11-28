@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TestComponent } from '@acme/components';
+import { ComponentsService, TestComponent } from '@acme/components';
 
 @Component({
   selector: 'app-root',
@@ -12,5 +12,8 @@ import { TestComponent } from '@acme/components';
   ]
 })
 export class AppComponent {
+
+  private _serviceFromLib = inject(ComponentsService);
+
   title = 'app';
 }
